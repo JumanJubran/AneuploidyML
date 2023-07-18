@@ -32,7 +32,7 @@ def get_qvalue_threshold(data_type):
         return 0.15
 
 def results_as_heatmap():
-    data = pd.read_csv("../article_results/Figure 1/cancer_arm_aneuploidy.csv")
+    data = pd.read_csv("../article_results/Figure 1/Panel A _ cancer_arm_aneuploidy.csv")
 
     data = data.set_index(data['Type'])
     data = data.drop(columns=['Type'])
@@ -44,7 +44,7 @@ def results_as_heatmap():
     g.set_xticklabels(g.get_xmajorticklabels(), fontsize=14)
     g.set_yticklabels(g.get_ymajorticklabels(), fontsize=16)
 
-    plt.savefig("../article_results/Figure 1/cancer_arm_aneuploidy_heatmap.png",
+    plt.savefig("../article_results/Figure 1/Panel A _ cancer_arm_aneuploidy_heatmap.png",
                 bbox_inches='tight')
 
 def integrate_aneuploidy_statistics(data_type):
@@ -53,7 +53,7 @@ def integrate_aneuploidy_statistics(data_type):
     types = sorted(get_cancer_types_in_model(data_type))
     fieldnames = ['Type'] + get_chromosome_arms()
     threshold = get_qvalue_threshold(data_type)
-    with open("../article_results/Figure 1/panel A_ cancer_arm_aneuploidy.csv", 'w',newline='') as csvfile:
+    with open("../article_results/Figure 1/panel A _ cancer_arm_aneuploidy.csv", 'w',newline='') as csvfile:
 
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
