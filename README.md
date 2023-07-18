@@ -15,6 +15,7 @@ the main code was written in python. It includes data processing, machine learni
 The pipeline code can be reviewed and used by running main.py from src folder.
 
 #### Plots
+Data to generate each panel is presented in "Data source file.xlsx" and in their respective "article_results/Figure X" folder.
 Plots were generated via python as part of the pipeline and via R.
 
 | Figure   | Panel | Script                                         |
