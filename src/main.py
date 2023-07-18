@@ -17,13 +17,13 @@ def main():
     Loss model: Loss versus Rest (I.e. Gain and Neutral)
     Results are saved as Figure S3
     '''
-    #compare_ML_methods_performance()
+    compare_ML_methods_performance()
 
 
 
     '''
     Using SHAP algorithm to reveal contributing features per each model
     '''
-    #SHAP_analysis_of_features_contributing()
+    SHAP_analysis_of_features_contributing()
 
 main()
