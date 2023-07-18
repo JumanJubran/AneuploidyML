@@ -22,7 +22,8 @@ Plots were generated via python as part of the pipeline and via R.
 |----------|-------|------------------------------------------------|
 | Figure1  | A     | build_aneuploidy_table_GISTIC.py (pipeline)    |
 | Figure2  | A-D   | shap_analysis.py (pipline)                     |
-| Figure4  | D,F   | violin_plots.R                                 |
+| Figure4  | B     | Fig4B_13q_gain_prevalence_barplot              |
+|          | D,F   | violin_plots.R                                 |
 | Figure5  | D,E   | violin_plots.R                                 |
 |          | G,H   | Fig5G-H_cooccurrence.R                         |
 | FigureS3 | A-D   | curves - compare_models.py (pipline)           |
