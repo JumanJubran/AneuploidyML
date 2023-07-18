@@ -24,6 +24,7 @@ Plots were generated via python as part of the pipeline and via R.
 | Figure2  | A-D   | shap_analysis.py (pipline)                     |
 | Figure4  | B     | Fig4B_13q_gain_prevalence_barplot              |
 |          | D,F   | violin_plots.R                                 |
+|          | H,J   | Fig4H-J_boxplots                               |
 | Figure5  | D,E   | violin_plots.R                                 |
 |          | G,H   | Fig5G-H_cooccurrence.R                         |
 | FigureS3 | A-D   | curves - compare_models.py (pipline)           |
