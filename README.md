@@ -5,7 +5,7 @@ This repository contains data, code, and analysis as described in the paper "Mac
 * [Article results](#article-results) 
     * [Pipeline code](#pipeline-code)
     * [Plots](#plots)
-* [Data availability](#Data availability)
+* [Data availability](#Data-availability)
 
 ### Article results
 Results are found in their respective "article_results/Figure X" folder.
