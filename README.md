@@ -5,7 +5,7 @@ This repository contains data, code, and analysis as described in the paper "Mac
 * [Article results](#article-results) 
     * [Pipeline code](#pipeline-code)
     * [Plots](#plots)
-* Data availability
+* Data availability(#Data availability)
 
 ### Article results
 Results are found in their respective "article_results/Figure X" folder.
@@ -22,12 +22,23 @@ Plots were generated via python as part of the pipeline and via R.
 |----------|-------|------------------------------------------------|
 | Figure1  | A     | build_aneuploidy_table_GISTIC.py (pipeline)    |
 | Figure2  | A-D   | shap_analysis.py (pipline)                     |
+| Figure2  | E     | correlation_analysis.py (pipline)              |
+| Figure3  | A-E   | CCL_main.py (pipline)                          |
+| Figure3  | F     | correlation_analysis.py (pipline)              |
 | Figure4  | B     | Fig4B_13q_gain_prevalence_barplot              |
 |          | D,F   | violin_plots.R                                 |
 |          | H,J   | Fig4H-J_boxplots                               |
+| Figure5  | A     | correlation_analysis.py (pipline)              |
 | Figure5  | D,E   | violin_plots.R                                 |
 |          | G,H   | Fig5G-H_cooccurrence.R                         |
 | FigureS3 | A-D   | curves - compare_models.py (pipline)           |
 |          |       | boxplot - FigS3_models_performance.R           |
 | FigureS4 | A,B   | shap_analysis.py (pipeline)                    |
+| FigureS5 |       | correlation_analysis.py (pipline)              |                 
 | FigureS6 | A-D   | shap_analysis.py (pipeline)                    |
+| FigureS8 | A     | correlation_analysis.py (pipline)              |
+| FigureS8 | B-C   | paralogs_analysis.py (pipline)                 |
+
+#### Data availability
+Dataset folder is required to build aneuploidy dataset to construct the ML model.
+The dataset will be available on Zenode.
