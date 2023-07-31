@@ -41,4 +41,4 @@ Plots were generated via python as part of the pipeline and via R.
 
 #### Data availability
 Dataset folder is required to build aneuploidy dataset to construct the ML model.
-The dataset is available on Zenode: https://zenodo.org/record/8199048
+The dataset is available on Zenode - https://zenodo.org/record/8199048
