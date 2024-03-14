@@ -67,7 +67,7 @@ def SHAP_summary_plot(shap_values, X_test,file_name):
     shap.summary_plot(shap_values, X_test,cmap = newcmp, max_display = 10, axis_color='black')
 
     if 'Rest' in file_name:
-        fig.savefig('../article_results/Figure S6/'+file_name+'__SHAP_direction.png',bbox_inches='tight')
+        fig.savefig('../article_results/Figure S9/'+file_name+'__SHAP_direction.png',bbox_inches='tight')
     else:
         fig.savefig('../article_results/Figure 2/'+file_name+'__SHAP_direction.png',bbox_inches='tight')
 
@@ -76,14 +76,14 @@ def SHAP_bar_plot(shap_values, X_test, file_name):
     fig = plt.figure(figsize=(10,8))
     shap.summary_plot(shap_values, X_test,plot_type='bar', color = 'black', axis_color='black')
     if 'Rest' in file_name:
-        fig.savefig('../article_results/Figure S6/'+file_name+'__SHAP_all_features_contribution.png',bbox_inches='tight')
+        fig.savefig('../article_results/Figure S9/'+file_name+'__SHAP_all_features_contribution.png',bbox_inches='tight')
     else:
-        fig.savefig('../article_results/Figure S4/'+file_name+'__SHAP_all_features_contribution.png',bbox_inches='tight')
+        fig.savefig('../article_results/Figure S5/'+file_name+'__SHAP_all_features_contribution.png',bbox_inches='tight')
 
     fig = plt.figure(figsize=(10,8))
     shap.summary_plot(shap_values, X_test,max_display = 10,plot_type='bar', color = 'black', axis_color='black')
     if 'Rest' in file_name:
-        fig.savefig('../article_results/Figure S6/'+file_name+'__SHAP_top10_features_contribution.png',bbox_inches='tight')
+        fig.savefig('../article_results/Figure S9/'+file_name+'__SHAP_top10_features_contribution.png',bbox_inches='tight')
     else:
         fig.savefig('../article_results/Figure 2/'+file_name+'__SHAP_top10_features_contribution.png',bbox_inches='tight')
 
@@ -94,7 +94,7 @@ def save_features_importance_as_output_file(X, shap_values, file_name):
         dict_to_write['Importance value'].append(np.abs(shap_values).mean(0)[i])
         dict_to_write['Feature'].append(X.columns.tolist()[i])
     if 'Rest' in file_name:
-        pd.DataFrame.from_dict(dict_to_write).to_csv('../article_results/Figure S6/'+file_name+'__feature_importance_values.csv', index=False)
+        pd.DataFrame.from_dict(dict_to_write).to_csv('../article_results/Figure S9/'+file_name+'__feature_importance_values.csv', index=False)
     else:
         pd.DataFrame.from_dict(dict_to_write).to_csv('../article_results/Figure 2/'+file_name+'__feature_importance_values.csv', index=False)
 
