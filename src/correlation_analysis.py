@@ -111,12 +111,10 @@ def scatterplot(dataset, feature_n, freq_n, x, y,color,data_type):
     elif feature_n == 'Paralogs compensation':
         if freq_n == 'Del frequency':
             plt.savefig("../article_results/Figure 5/Panel A_" + freq_n + "_" + feature_n + "_"+data_type+"_correlation.png")
-        else:
-            plt.savefig( "../article_results/Figure S8/Panel A_" + freq_n + "_" + feature_n + "_" + data_type + "_correlation.png")
 
     else:
         if data_type == 'TCGA':
-            plt.savefig( "../article_results/Figure S5/" + freq_n + "_" + feature_n + "_" + data_type + "_correlation.png")
+            plt.savefig( "../article_results/Figure S6/" + freq_n + "_" + feature_n + "_" + data_type + "_correlation.png")
     plt.clf()
 
 
