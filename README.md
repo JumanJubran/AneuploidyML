@@ -36,7 +36,8 @@ Plots were generated via python as part of the pipeline and via R.
 | FigureS4  | A-B   | curves - compare_models.py (pipline)                                              |
 |           |       | boxplot - FigS3_models_performance.R                                              |
 | FigureS5  | A,B   | shap_analysis.py (pipeline)                                                       |
-| FigureS6  |       | correlation_analysis.py (pipline)                                                 |                 
+| FigureS6  |       | correlation_analysis.py (pipline)                                                 |   
+| FigureS7  |       | construct dataset with other threshold: src\other_threshold_percentage            |  
 | FigureS9  | A     | curves - compare_models.py (pipline)                                              |
 | FigureS9  | B-C   | shap_analysis.py (pipeline)                                                       |
 | FigureS17 | A-B   | paralogs_analysis.py (pipline)                                                    |
