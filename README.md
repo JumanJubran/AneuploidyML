@@ -39,6 +39,7 @@ Plots were generated via python as part of the pipeline and via R.
 | FigureS6  |       | correlation_analysis.py (pipline)                                                                                        |   
 | FigureS7  |       | construct dataset with other threshold: src\other_threshold_percentage.py                                                |  
 |           |       | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively on the relevant dataset.       | 
+| FigureS8  | A     | parameter_tunning.py (pipline)                                                                                           |
 | FigureS9  | A     | curves - compare_models.py (pipline)                                                                                     |
 | FigureS9  | B-C   | shap_analysis.py (pipeline)                                                                                              |
 | FigureS17 | A-B   | paralogs_analysis.py (pipline)                                                                                           |
