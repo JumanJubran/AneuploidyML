@@ -102,7 +102,10 @@ def plot_curves(model_roc_scores,roc_median,model_PR_scores,pr_median,file_name,
         ax2.set_ylabel('Percision')
         ax2.set_title('Percision-Recall curve')
         ax2.legend(loc="lower right")
-    plt.savefig('../article_results/Figure S3/'+ file_name + "__ROC_PR_Curves.png",bbox_inches='tight')
+    if 'Neutral' in file_name:
+        plt.savefig('../article_results/Figure S4/'+ file_name + "__ROC_PR_Curves.png",bbox_inches='tight')
+    else:
+        plt.savefig('../article_results/Figure S9/'+ file_name + "__ROC_PR_Curves.png",bbox_inches='tight')
 
 
 
@@ -209,7 +212,10 @@ def get_results_as_CSV_file(X, y, models_dict, file_name, threshold,model_roc_sc
             #methods_comparision_by_ten_fold_validation(X, y, models_dict, file_name, threshold)
 
     if flag == 0:
-        pd.DataFrame.from_dict(results_output_file).to_csv('../article_results/Figure S3/'+file_name + '__Ten_fold_results.csv', index=False)
+        if 'Neutral' in file_name:
+            pd.DataFrame.from_dict(results_output_file).to_csv('../article_results/Figure S4/'+file_name + '__Ten_fold_results.csv', index=False)
+        else:
+            pd.DataFrame.from_dict(results_output_file).to_csv('../article_results/Figure S9/'+file_name + '__Ten_fold_results.csv', index=False)
 
 
 '''
