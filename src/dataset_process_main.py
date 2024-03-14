@@ -30,7 +30,8 @@ def dataset_processing_main():
     Dataset_genes_zscore.to_csv("Processed datasets/6_Genes z score.csv", index=False)
     
     print('----------Calculate top 10% genes per feature nd tissue----------')
-    Dataset_arm = calculate_median_top(Dataset_genes_zscore)                       #This function is from calcuate_median_top
+    threshold = 0.1
+    Dataset_arm = calculate_median_top(Dataset_genes_zscore,threshold)                       #This function is from calcuate_median_top
     Dataset_arm.to_csv('Processed datasets/7_median_top_10_percent.csv', index=False)
 
     print('----------Construct cancer type - chromosome arm dataset for ML learning----------')
