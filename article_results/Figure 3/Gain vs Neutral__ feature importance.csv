@@ -1,0 +1,17 @@
+Feature,Importance value
+0.08813917809335185,Normal tissue expression
+0.10582916969091533,Num PPIs
+0.057579069772998565,Num elevated PPIs
+0.08540446560405351,Num tissue-specific PPIs
+0.2272968467231139,Differential PPIs
+0.17997545638055001,Gene eQTL
+0.06945206942173891,Paralogs compensation
+0.0801957565064982,Process activity
+0.13596356768310322,CCL expression
+0.05109199458494512,CRISPR essentiality score
+0.13176024753039733,RNAI essentiality score
+0.8389584142116107,Tumor suppressor gene density
+0.4633304417878913,Oncogene density
+0.048092137566483215,Tissue-specific gene density
+0.14871473864360887,Essential gene density (CRISPR)
+0.1329856208925204,Essential gene density (Nichols)

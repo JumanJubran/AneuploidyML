@@ -1,0 +1,7 @@
+﻿Tumor,type,value,Per
+COAD,Loss,7,1.72
+COAD,Neutral,178,43.73
+COAD,Gain,222,54.55
+Other,Loss,2288,25.74
+Other,Neutral,5735,64.51
+Other,Gain,867,9.75
