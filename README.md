@@ -33,8 +33,8 @@ Plots were generated via python as part of the pipeline and via R.
 | Figure5   | A     | correlation_analysis.py (pipline)                                                                                        |
 | Figure5   | D,E   | violin_plots.R                                                                                                           |
 |           | G,H   | Fig5G-H_cooccurrence.R                                                                                                   |
-| FigureS3  | A-C   | Correlation analysis: 'article_results\Figure S3\correlation analysis.py                                                 |
-|           |       | Plots: 'article_results\Figure S3\Fig_S3_plots.r                                                                         |
+| FigureS3  | A-C   | Correlation analysis: article_results\Figure S3\correlation analysis.py                                                 |
+|           |       | Plots: article_results\Figure S3\Fig_S3_plots.r                                                                         |
 | FigureS4  | A-B   | curves - compare_models.py (pipline)                                                                                     |
 |           |       | boxplot - FigS3_models_performance.R                                                                                     |
 | FigureS5  | A,B   | shap_analysis.py (pipeline)                                                                                              |
@@ -44,6 +44,7 @@ Plots were generated via python as part of the pipeline and via R.
 | FigureS8  | A     | parameter_tunning.py (pipline)                                                                                           |
 | FigureS9  | A     | curves - compare_models.py (pipline)                                                                                     |
 | FigureS9  | B-C   | shap_analysis.py (pipeline)                                                                                              |
+| FigureS10 | A-B   | article_results\Figure S10\top_driver_analysis.py                                                                                            |
 | FigureS17 | A-B   | paralogs_analysis.py (pipline)                                                                                           |
 
 #### Data availability
