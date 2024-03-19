@@ -33,18 +33,20 @@ Plots were generated via python as part of the pipeline and via R.
 | Figure5   | A     | correlation_analysis.py (pipline)                                                                                        |
 | Figure5   | D,E   | violin_plots.R                                                                                                           |
 |           | G,H   | Fig5G-H_cooccurrence.R                                                                                                   |
-| FigureS3  | A-C   | Correlation analysis: article_results\Figure S3\correlation analysis.py                                                 |
-|           |       | Plots: article_results\Figure S3\Fig_S3_plots.r                                                                         |
+| FigureS3  | A-C   | Correlation analysis: article_results\Figure S3\correlation analysis.py                                                  |
+|           |       | Plots: article_results\Figure S3\Fig_S3_plots.r                                                                          |
 | FigureS4  | A-B   | curves - compare_models.py (pipline)                                                                                     |
 |           |       | boxplot - FigS3_models_performance.R                                                                                     |
 | FigureS5  | A,B   | shap_analysis.py (pipeline)                                                                                              |
 | FigureS6  |       | correlation_analysis.py (pipline)                                                                                        |   
 | FigureS7  |       | construct dataset with other threshold: src\other_threshold_percentage.py                                                |  
-|           |       | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively on the relevant dataset.       | 
+|           |       | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively with the corresponding dataset.| 
 | FigureS8  | A     | parameter_tunning.py (pipline)                                                                                           |
 | FigureS9  | A     | curves - compare_models.py (pipline)                                                                                     |
 | FigureS9  | B-C   | shap_analysis.py (pipeline)                                                                                              |
-| FigureS10 | A-B   | article_results\Figure S10\top_driver_analysis.py                                                                                            |
+| FigureS10 | A-B   | article_results\Figure S10\top_driver_analysis.py                                                                        |
+| FigureS11 | A     | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively with the corresponding dataset.| 
+| FigureS11 | B-C   | article_results\Figure S11\whole_chromosome_main.py                                                                      |
 | FigureS17 | A-B   | paralogs_analysis.py (pipline)                                                                                           |
 
 #### Data availability
