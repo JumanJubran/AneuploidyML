@@ -40,13 +40,14 @@ Plots were generated via python as part of the pipeline and via R.
 | FigureS5  | A,B   | shap_analysis.py (pipeline)                                                                                              |
 | FigureS6  |       | correlation_analysis.py (pipline)                                                                                        |   
 | FigureS7  |       | construct dataset with other threshold: src\other_threshold_percentage.py                                                |  
-|           |       | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively with the corresponding dataset.| 
+|           |       | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively with the corresponding dataset | 
 | FigureS8  | A     | parameter_tunning.py (pipline)                                                                                           |
+| FigureS8  | B-C   | For model performance and SHAP analysis, run compare_models.py and SHAP analysis with best hyperpatameter per model      |
 | FigureS9  | A     | curves - compare_models.py (pipline)                                                                                     |
 |           |       | boxplot - article_results\Figure S4\models_performance.R                                                                 |
 | FigureS9  | B-C   | shap_analysis.py (pipeline)                                                                                              |
 | FigureS10 | A-B   | article_results\Figure S10\top_driver_analysis.py                                                                        |
-| FigureS11 | A     | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively with the corresponding dataset.| 
+| FigureS11 | A     | To find best model and to plot SHAP, run compare_models.py and SHAP analysis respectively with the corresponding dataset | 
 | FigureS11 | B-C   | article_results\Figure S11\whole_chromosome_main.py                                                                      |
 | FigureS12 |       | article_results\src\boxplots.R                                                                                           |
 | FigureS13 | A     | article_results\src\bar_plots.R                                                                                          |
