@@ -27,10 +27,10 @@ box_plotting <- function(asterisk_position, y_lim_low, y_lim_high,step_by, y_tit
       annotation = c(significance), tip_length = 0.05, size = 1, textsize = 8
     )
   if(figure=='4H'){
-    ggsave('C:/Users/jumaj/Documents/University/aneuploidy/Code for GITHUB/article_results/Figure 4/Fig4H_KLF5_mRNA_levels.png')
+    ggsave('../Figure 4/Fig4H_KLF5_mRNA_levels.png')
   }
   else{
-    ggsave('C:/Users/jumaj/Documents/University/aneuploidy/Code for GITHUB/article_results/Figure 4/Fig4J_siKLF5_DLD1.png')
+    ggsave('../Figure 4/Fig4J_siKLF5_DLD1.png')
   }
   
 }
