@@ -1,0 +1,21 @@
+Feature,Importance value
+Num PPIs,0.4419439
+Num elevated PPIs,0.18005215
+Num tissue-specific PPIs,0.24640091
+Differential PPIs,0.17190644
+Gene eQTL,0.22028644
+Paralogs compensation,0.26102087
+Process activity,0.27595946
+Development variations,0.06206872
+Essentiality score (CRISPR),0.20993486
+RNAi essentiality score,0.14935046
+Fetus development,0.13818713
+Childhood development,0.08961932
+Young development,0.06921514
+Tumor suppressor gene density,1.4118071
+Oncogene density,1.072339
+Tissue-specific gene density,0.22839916
+CRISPR essential gene density,0.21591985
+Essential gene density (Nichols),0.3990466
+Normal tissue expression,0.37390494
+TCGA expression,0.5926513
